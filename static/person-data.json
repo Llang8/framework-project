@@ -1,0 +1,47 @@
+[
+    {
+        "firstName": "Derek",
+        "lastName": "Hawkins",
+        "occupation": "Software Engineer",
+        "skills": [
+            {
+                "Python": 10
+            },
+            {
+                "JavaScript": 8
+            },
+            {
+                "PHP": 8
+            }
+        ]
+    }
+]
+
+[
+    {
+        "firstName": "Derek",
+        "lastName": "Hawkins",
+        "occupation": "Software Engineer",
+        "skills": [
+            {
+                "id": 1,
+                "name": "Python",
+                "level": 10
+            }
+        ]
+    }
+]
+
+[
+    {
+        "firstName": "Derek",
+        "lastName": "Hawkins",
+        "occupation": "Software Engineer",
+        "skills": {
+            "Python": 10,
+            "JavaScript": 9,
+            "PHP": 7
+        }
+    }
+]
+

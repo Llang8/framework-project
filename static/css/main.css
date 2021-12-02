@@ -1,0 +1,39 @@
+header {
+    margin-bottom: 35px
+}
+
+.skill-level:disabled {
+    /* Disabled Element */
+    position: relative;
+    margin-top: 15px;
+}
+
+.skill-level:disabled::-webkit-slider-runnable-track {
+    /* Disabled slider-runnable-track */
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    height: 5px;
+    background: #2C65FF;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.skill-level:disabled::-webkit-slider-thumb {
+    /* Disabled slider-thumb */    
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    background: white;
+    margin-top: -5px;
+}
+
+.skill-level:disabled::-moz-range-thumb {
+    /* Disabled slider-thumb */
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    background: white;
+    margin-top: -5px;
+}
